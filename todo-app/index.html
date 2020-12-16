@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+<body>
+  <div class="container">
+    <header class="todo-header">
+      <div class="heading">
+        <h1>Todo</h1>
+        <label for="mode">
+          <input type="checkbox" name="mode" id="mode">
+          <span class="checked"></span>
+        </label>
+      </div>
+    </header>
+    <section class="todo-section">
+      <div class="new-todo">
+        <label for="create-todo">
+          <input type="text" name="create-todo" id="create-todo" placeholder="Create a new todo...">
+        </label>
+      </div>
+
+      <div class="todo-list">
+        <div class="">
+          <div class="todo-wrapper">
+
+          </div>
+            <div class="todo-options">
+            <p class="items-count">6 items left</p>
+            <div class="items-filter">
+              <button class="btn show-all active">All</button>
+              <button class="btn show-active">Active</button>
+              <button class="btn show-completed">Completed</button>
+            </div>
+            <div class="clear-items">
+              <button>Clear Completed</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="todo-instructions">
+        <p>Drag and drop to reorder list</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
